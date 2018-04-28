@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'openkdk-8-jre'
+      image 'openjdk-8-jre'
     }
 
   }
